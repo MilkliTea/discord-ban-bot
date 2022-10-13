@@ -1,18 +1,22 @@
 {
-  "name": "asd",
+  "name": "discord-ban-bot-heroku",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+    "engines": {
+    "node": "8.x",
+    "npm": "*"
+  },
   "scripts": {
     "start": "node index.js"
   },
-  "keywords": [],
+ "keywords": [
+    "heroku",
+    "discord.js"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "discord.js": "^14.6.0"
-  },
-  "devDependencies": {
-    "nodeman": "^1.1.2"
   }
 }
